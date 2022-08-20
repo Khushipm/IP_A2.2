@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #FBD6D2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo
+{
+    margin-bottom: 10px;
+}
+
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+}
+
+.tit{
+    margin: 40px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.625rem;
+    color:  #000000;
+    line-height: 2;
+}
+
+nav{
+    display: flex;
+    
+}
+
+
+
+nav ul{
+    height: 58px;
+    left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+   
+}
+
+.search input{
+    width: 30vw;
+    height: 37px;
+    border-radius: 5px;
+    margin: 0 3px 0 56px;
+    padding:0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.btn
+{  width: 5vw;
+    background-color: #ffffff;
+}
+
+.det
+{
+    background: #FBD6D2; 
+
+}
+.del
+{
+    background: #f7c9c4; 
+
+}
+.pay
+{
+    background: #fdc1ba; 
+}
+
+.btn
+{
+    display: inline-block;
+    border-radius: 14px;
+    background-color: rgb(4, 4, 4);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    cursor: pointer;
+    margin: 45px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
